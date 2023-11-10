@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="game">Game</h1>
+        <div class="game-name">Rock | Paper | Scissor</div>
+
+        <!-- Won or lost text -->
+        <div class="won-lost-text">You have won !</div>
+
+        <!-- computer choice -->
+        <div class="computer-choice">Computer choice : <span class="random-choice-computer">----</span></div>
+
+        <!-- player's choice -->
+        <div class="player-choice">Your choice : <span class="your-choice-player">----</span></div>
+
+        <!-- won or lost count -->
+        <div class="won-lost-count">
+            <div class="won">Won : <span class="won-count">0</span></div>
+            <p>|</p>
+            <div class="lost">Lost : <span class="lost-count">0</span></div>
+            <p>|</p>
+            <div class="tie">Tie : <span class="tie-count">0</span></div>
+        </div>
+
+        <form action="">
+            <input class="type-text" type="text" placeholder="Enter your coice...." required>
+            <input class="type-submit" type="submit" value="check">
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
