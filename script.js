@@ -30,6 +30,8 @@ form.addEventListener("submit", (e) => {
     inputValue = String(inputValue);
     yourChoice.innerHTML = inputValue;
 
+    inputElement.value = "";
+
     // ====================================================================================
 
     if (inputValue === "rock" || inputValue === "Rock" || inputValue === "ROCK" || inputValue === "r" || inputValue === "R") {
